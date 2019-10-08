@@ -23,7 +23,7 @@ public class formAlunoActivity extends AppCompatActivity {
     private EditText campoNome;
     private EditText campoTel;
     private EditText campoEmail;
-    final AlunoDAO dao = new AlunoDAO();
+    private final AlunoDAO dao = new AlunoDAO();
     private Aluno aluno;
 
 
